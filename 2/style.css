@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #0a121f;
+}
+.all{
+    display: flex;
+    justify-content: center;
+}
+button{
+    outline: none;
+    border: none;
+    background: none;
+    background-color: #3a68b8;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    padding: 15px 30px;
+    transition-duration: 0.4s;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+img{
+    background-color: #ffffff00;
+}
+.header{
+    display: flex;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+}
+.header_menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header_menu_logo{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    gap: 10px;
+}
+.header_menu_content{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    gap: 45px;
+}
+h1{
+    font-size: 70px;
+    color: white;
+    align-content: center;
+}
+h2{
+    font-size: 25px;
+    color: #3a68b8;
+    align-content: center;
+}
+h3{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 160%;
+    color: #ffffff;
+    opacity: 0.7;
+}
+h4{
+    font-size: 22.5px;
+    color: #3a68b8;
+    align-content: center;
+}
+p{
+    color: white;
+    font-size: 20px;
+}
+.preview{
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+.preview__content{
+    display: flex;
+    position: relative;
+}
+.preview__col{
+    width: 50%;
+    position: relative;
+    top: 150px;
+}
+.main_1_content_button_menu{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    width: 15px;
+}
+.main_2_content{
+    left: 60%;
+    position: absolute;
+}
+.main_img{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: 375px;
+}
+.header_menu_button:hover{
+    background-color: #153b7c;
+}
+.main_1_content_button_menu_1:hover{
+    background-color: #153b7c;
+}
+.main_1_content_button_menu_2:hover{
+    background-color: #153b7c;
+}
+.container {
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+}

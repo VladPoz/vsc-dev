@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+p {
+    font-size: 22px;
+}
+.header{
+    background-position: center;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://ssa.ru/upload/000/u1/1/c/e1fb6445.jpg");
+}
+.header-menu{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    padding: 15px;
+    margin: 10px;
+}
+.menu-button{
+    border-radius: 20px;
+    color: white;
+    background-color: khaki;
+    font-size: 20px;
+    padding: 15px;
+    height: 50px;
+    border: 0px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+}
+.text-white{
+    color: white;
+    font-size: 35px;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1200px;
+    background-color: #333333;
+}
+
+.main-menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.main-element{
+    width: 250px;
+    height: 250px;
+    background-color: #4d4d4d;
+}
