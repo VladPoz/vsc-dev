@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+body{
+    background-color: rgb(51, 51, 51);
+}
+header{
+    background-position: center;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://ssa.ru/upload/000/u1/1/c/e1fb6445.jpg");
+}
+.header__content{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    padding: 15px;
+    margin: 10px;
+}
+button{
+    border-radius: 20px;
+    color: white;
+    background-color: khaki;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+}
+.header__content__button{
+    font-size: 20px;
+    padding: 15px;
+    height: 50px;
+    margin-top: 5px;
+}
+h1{
+    color: white;
+    font-size: 50px;
+    text-shadow: 1px 1px 2px rgb(255, 255, 255);
+}
+main{
+    height: 850px;
+}
+.shops__conteners{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.shops__content{
+    background-color: rgb(31, 31, 31);
+    border-radius: 15px;
+    height: 375px;
+    width: 275px;
+}
+.shops__content__img{
+    border-radius: 15px;
+    height: 175px;
+    width: 250px;
+    padding-left: 13px;
+} 
+.shops__content__h2{
+    font-size: 35px;
+    color: white;
+    padding-left: 13px;
+}
+.shops__content__h3{
+    font-size: 30px;
+    color: white;
+    padding-left: 13px;
+}
+.shops__content__button{
+    font-size: 20px;
+    padding: 5px;
+    height: 25px;
+}
+button:hover{
+    background-color: rgba(226, 185, 96, 0.753);
+}
+.container{
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+}
