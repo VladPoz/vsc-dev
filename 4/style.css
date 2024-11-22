@@ -3,9 +3,6 @@
     padding: 0;
     border: none;
 }
-body{
-    background-color: rgb(51, 51, 51);
-}
 header{
     background-position: center;
     height: 650px;
@@ -34,49 +31,93 @@ button{
 }
 h1{
     color: white;
-    font-size: 50px;
+    font-size: 4vw;
     text-shadow: 1px 1px 2px rgb(255, 255, 255);
 }
-main{
-    height: 850px;
+img{
+    margin-left: 12px;
+    margin-top: 12px;
+    width: 250px;
+    height: 200px;
+    border-radius: 15px;
+}
+body{
+    background-color: rgb(51, 51, 51);
 }
 .shops__conteners{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    column-gap: 30px;
 }
 .shops__content{
     background-color: rgb(31, 31, 31);
+    padding: 10px;
     border-radius: 15px;
-    height: 375px;
-    width: 275px;
+    margin-top: 50px;
 }
 .shops__content__img{
     border-radius: 15px;
-    height: 175px;
-    width: 250px;
-    padding-left: 13px;
+    padding-right: 13px;
 } 
 .shops__content__h2{
     font-size: 35px;
+    margin-top: 5px;
     color: white;
     padding-left: 13px;
 }
 .shops__content__h3{
     font-size: 30px;
+    margin-top: 10px;
     color: white;
     padding-left: 13px;
 }
 .shops__content__button{
+    margin-left: 10px;
+    margin-top: 15px;
+    display: flex;
+    gap: 175px;
+}
+.shops__content__button_buy{
     font-size: 20px;
-    padding: 5px;
-    height: 25px;
+    padding: 7px;
+    height: 35px;
+}
+.shops__content__button_like{
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0);
+    padding: 7px;
+    height: 35px;
+    width: 35px;
+}
+footer{
+    background-color: rgb(21, 21, 21);
+    margin-top: 25px;
+}
+.footer_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.footer_content_sotset{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
 }
 button:hover{
     background-color: rgba(226, 185, 96, 0.753);
+}
+.shops__content__button_like:active{
+    color: red;
+}
+.shops__content__button_like:hover{
+    background-color: rgb(31, 31, 31);
 }
 .container{
     max-width: 1300px;
     width: 100%;
     margin: 0 auto;
+    padding: 0 20px;
 }
