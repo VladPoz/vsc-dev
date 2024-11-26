@@ -31,7 +31,7 @@ button{
 }
 h1{
     color: white;
-    font-size: 4vw;
+    font-size: 60px;
     text-shadow: 1px 1px 2px rgb(255, 255, 255);
 }
 img{
@@ -99,6 +99,7 @@ footer{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    background-color: rgb(21, 21, 21);
     gap: 10px;
 }
 .footer_content_sotset{
@@ -109,9 +110,7 @@ footer{
 button:hover{
     background-color: rgba(226, 185, 96, 0.753);
 }
-.shops__content__button_like:active{
-    color: red;
-}
+
 .shops__content__button_like:hover{
     background-color: rgb(31, 31, 31);
 }

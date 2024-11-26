@@ -1,0 +1,42 @@
+*{
+    padding: none;
+    margin: none;
+    border: none;
+}
+body{
+    background-color: black;
+}
+.count{
+    display: flex;
+    color: white;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.display{
+    height: 575px;
+    border-radius: 15px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 55px;
+}
+.player_1{
+    height: 175px;
+    padding-left: 20px;
+    background-color: white;
+    border-radius: 15px;
+}
+.player_2{
+    height: 175px;
+    padding-left: 20px;
+    background-color: white;
+    border-radius: 15px;
+}
+.ball{
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border-radius: 105px;
+}
