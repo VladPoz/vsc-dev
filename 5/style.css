@@ -21,18 +21,21 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 55px;
+    position: relative;
 }
 .player_1{
     height: 175px;
     padding-left: 20px;
     background-color: white;
     border-radius: 15px;
+    transition: 0.1s all ease;
 }
 .player_2{
     height: 175px;
     padding-left: 20px;
     background-color: white;
     border-radius: 15px;
+    transition: 0.1s all ease;
 }
 .ball{
     height: 30px;
