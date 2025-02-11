@@ -1,0 +1,139 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  border: none;
+  border-radius: none;
+}
+* body {
+  background-color: rgb(46, 45, 45);
+}
+* body .header__contents {
+  padding: 7px;
+  background-color: rgb(31, 30, 30);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+* body .header__contents .header__contents__logo {
+  padding-left: 10px;
+}
+* body .header__contents .header__contents__search {
+  display: flex;
+  gap: 10px;
+}
+* body .header__contents .header__contents__search input {
+  background-color: rgb(46, 45, 45);
+  padding: 7px;
+  font-size: 25px;
+  color: #536177;
+  border: solid #ff0159 1px;
+  border-radius: 15px;
+  width: 350px;
+  height: 30px;
+}
+* body .header__contents .header__contents__mainContents {
+  display: flex;
+  align-items: center;
+  padding-right: 15px;
+  gap: 25px;
+}
+* body .slider {
+  display: none;
+}
+* body main {
+  display: flex;
+}
+* body main .main__card {
+  width: 100px;
+  height: 100px;
+  padding: 7px;
+  border-radius: 15px;
+  border: solid #ff0159 1px;
+}
+* body main .main__card__basket__btn {
+  background-color: rgb(46, 45, 45);
+  padding: 4px;
+  font-size: 20px;
+  color: #ff0159;
+  border: solid #ff0159 1px;
+  border-radius: 15px;
+}
+* body .end {
+  display: none;
+}
+* body login {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+* body login .login__menu__close {
+  position: absolute;
+}
+* body login .login__menu {
+  padding-top: 155px;
+  padding-bottom: 155px;
+  padding-left: 95px;
+  padding-right: 95px;
+  border: solid #ff0159 1px;
+  border-radius: 25px;
+}
+* body login .login__menu h1 {
+  font-size: 40px;
+  color: white;
+  padding-left: 90px;
+  padding-bottom: 20px;
+}
+* body login .login__menu .login__menu__username {
+  padding-bottom: 10px;
+}
+* body login .login__menu .login__menu__password {
+  padding-top: 10px;
+}
+* body login .login__menu input {
+  background-color: rgb(46, 45, 45);
+  padding: 7px;
+  font-size: 20px;
+  color: #536177;
+  border: solid #ff0159 1px;
+  border-radius: 15px;
+  width: 275px;
+  height: 25px;
+}
+* body login .login__menu .login__menu__hide {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+* body login .login__menu .login__menu__hide input {
+  width: 20px;
+  height: 20px;
+}
+* body login .login__menu .login__menu__hide a {
+  padding-left: 10px;
+}
+* body login .login__menu .login__menu__buttons {
+  padding-top: 20px;
+}
+* body login .login__menu .login__menu__buttons .login__menu__button {
+  width: 300px;
+  background-color: rgb(46, 45, 45);
+  padding: 7px;
+  font-size: 20px;
+  color: #ff0159;
+  border: solid #ff0159 1px;
+  border-radius: 15px;
+}
+* body login .login__menu .login__menu__reg {
+  padding-top: 17px;
+  color: white;
+}
+
+.container {
+  width: 75%;
+  margin: auto;
+  height: 100%;
+}/*# sourceMappingURL=main.css.map */
