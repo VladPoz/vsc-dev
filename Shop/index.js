@@ -16,7 +16,7 @@ const password__checkbox = document.querySelector('.login__menu__hide__checkbox'
 close__btn.addEventListener('click', ()=>{
     header.style.display = "block";
     slider.style.display = "none";
-    main.style.display = "none";
+    main.style.display = "flex";
     end.style.display = "none";
     login.style.display = "none";
 });
@@ -56,10 +56,30 @@ register.addEventListener('click', ()=>{
     }
 })
 
-const swiper = new Swiper('.swiper', {
-    loop: true, // Зацикленный слайдер
-    pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-    },
+document.addEventListener("DOMContentLoaded", async () => {
+    try {
+        const response = await fetch("main.json");
+        const data = await response.json();
+        const products = data.products;
+
+        const container = document.querySelector(".container");
+        const templateCard = document.querySelector(".main__card");
+        
+        if (!templateCard || !container) return;
+
+        container.innerHTML = ""; // Очищаем контейнер перед добавлением новых карт
+
+        products.forEach(product => {
+            const newCard = templateCard.cloneNode(true);
+            
+            newCard.querySelector(".main__card__logo__img").src = `${product.img}`;
+            newCard.querySelector(".main__card__price").textContent = `${product.price}$`;
+            newCard.querySelector(".main__card__description").textContent = `${product.name} - ${product.specs.base_clock || product.specs.memory}`;
+            
+            container.appendChild(newCard);
+        });
+    } catch (error) {
+        console.error("Ошибка загрузки данных: ", error);
+    }
 });
+

@@ -1,0 +1,244 @@
+{
+    "categories": [
+      "Процессоры",
+      "Видеокарты",
+      "Материнские платы"
+    ],
+    "products": [
+      {
+        "id": 1,
+        "name": "Intel Core i9-13900K",
+        "img": "https://avatars.mds.yandex.net/i?id=faedeed47b418daf113b1a4cac9e85e8ecb11d52-5280171-images-thumbs&n=13",
+        "category": "Процессоры",
+        "price": 745,
+        "stock": 10,
+        "brand": "Intel",
+        "specs": {
+          "cores": 24,
+          "threads": 32,
+          "base_clock": "3.0 GHz",
+          "boost_clock": "5.8 GHz",
+          "socket": "LGA 1700"
+        }
+      },
+      {
+        "id": 2,
+        "name": "AMD Ryzen 9 7950X",
+        "img": "https://28bit.ru/wa-data/public/shop/products/62/69/26962/images/63029/63029.750x0.jpeg",
+        "category": "Процессоры",
+        "price": 815,
+        "stock": 8,
+        "brand": "AMD",
+        "specs": {
+          "cores": 16,
+          "threads": 32,
+          "base_clock": "4.5 GHz",
+          "boost_clock": "5.7 GHz",
+          "socket": "AM5"
+        }
+      },
+      {
+        "id": 3,
+        "name": "Intel Core i7-13700K",
+        "img": "https://cdn1.ozone.ru/s3/multimedia-e/6650454434.jpg",
+        "category": "Процессоры",
+        "price": 545,
+        "stock": 12,
+        "brand": "Intel",
+        "specs": {
+          "cores": 16,
+          "threads": 24,
+          "base_clock": "3.4 GHz",
+          "boost_clock": "5.4 GHz",
+          "socket": "LGA 1700"
+        }
+      },
+      {
+        "id": 4,
+        "name": "AMD Ryzen 7 7700X",
+        "img": "https://avatars.mds.yandex.net/i?id=fe4f6e9fc4246d73000c05cb02b0ab397b157d60-5220584-images-thumbs&n=13",
+        "category": "Процессоры",
+        "price": 475,
+        "stock": 14,
+        "brand": "AMD",
+        "specs": {
+          "cores": 8,
+          "threads": 16,
+          "base_clock": "4.5 GHz",
+          "boost_clock": "5.4 GHz",
+          "socket": "AM5"
+        }
+      },
+      {
+        "id": 5,
+        "name": "Intel Core i5-13600K",
+        "img": "https://avatars.mds.yandex.net/i?id=7315cc4921a9621a71e1cfb65554531cc23a1035-3569687-images-thumbs&n=13",
+        "category": "Процессоры",
+        "price": 410,
+        "stock": 20,
+        "brand": "Intel",
+        "specs": {
+          "cores": 14,
+          "threads": 20,
+          "base_clock": "3.5 GHz",
+          "boost_clock": "5.1 GHz",
+          "socket": "LGA 1700"
+        }
+      },
+      {
+        "id": 6,
+        "name": "NVIDIA GeForce RTX 4090",
+        "img": "https://ir.ozone.ru/s3/multimedia-1-v/c1000/6947525947.jpg",
+        "category": "Видеокарты",
+        "price": 2445,
+        "stock": 5,
+        "brand": "NVIDIA",
+        "specs": {
+          "memory": "24 GB GDDR6X",
+          "core_clock": "2.23 GHz",
+          "boost_clock": "2.52 GHz",
+          "TDP": "450W"
+        }
+      },
+      {
+        "id": 7,
+        "name": "NVIDIA GeForce RTX 4080",
+        "img": "https://avatars.mds.yandex.net/i?id=1866d2bb40b98f4dea9fa597c44c4f52_l-8375627-images-thumbs&n=13",
+        "category": "Видеокарты",
+        "price": 1635,
+        "stock": 7,
+        "brand": "NVIDIA",
+        "specs": {
+          "memory": "16 GB GDDR6X",
+          "core_clock": "2.21 GHz",
+          "boost_clock": "2.51 GHz",
+          "TDP": "320W"
+        }
+      },
+      {
+        "id": 8,
+        "name": "AMD Radeon RX 7900 XTX",
+        "img": "https://28bit.ru/wa-data/public/shop/products/18/91/19118/images/32135/32135.750x0.jpeg",
+        "category": "Видеокарты",
+        "price": 1145,
+        "stock": 6,
+        "brand": "AMD",
+        "specs": {
+          "memory": "24 GB GDDR6",
+          "core_clock": "2.3 GHz",
+          "boost_clock": "2.5 GHz",
+          "TDP": "355W"
+        }
+      },
+      {
+        "id": 9,
+        "name": "NVIDIA GeForce RTX 4070 Ti",
+        "img": "https://www.kns.ru/linkpics/zotac-nvidia-geforce-rtx-4070-ti-12gb-trinity-zt-d40710d-10p-5-small.jpg",
+        "category": "Видеокарты",
+        "price": 1050,
+        "stock": 10,
+        "brand": "NVIDIA",
+        "specs": {
+          "memory": "12 GB GDDR6X",
+          "core_clock": "2.3 GHz",
+          "boost_clock": "2.61 GHz",
+          "TDP": "285W"
+        }
+      },
+      {
+        "id": 10,
+        "name": "AMD Radeon RX 7800 XT",
+        "img": "https://avatars.mds.yandex.net/i?id=f98524de75a4f96453a499480220640a5a1c3294-9853580-images-thumbs&n=13",
+        "category": "Видеокарты",
+        "price": 850,
+        "stock": 12,
+        "brand": "AMD",
+        "specs": {
+          "memory": "16 GB GDDR6",
+          "core_clock": "2.1 GHz",
+          "boost_clock": "2.4 GHz",
+          "TDP": "263W"
+        }
+      },
+      {
+        "id": 11,
+        "name": "ASUS ROG STRIX B650E-F",
+        "img": "https://avatars.mds.yandex.net/i?id=36c37d3c46a0ab656bb4fceba2739a0f12408331-5669034-images-thumbs&n=13",
+        "category": "Материнские платы",
+        "price": 325,
+        "stock": 15,
+        "brand": "ASUS",
+        "specs": {
+          "socket": "AM5",
+          "chipset": "B650E",
+          "form_factor": "ATX",
+          "memory_slots": 4,
+          "max_memory": "128 GB"
+        }
+      },
+      {
+        "id": 12,
+        "name": "MSI MAG B660 TOMAHAWK WIFI",
+        "img": "https://avatars.mds.yandex.net/i?id=c7707f09a9f89a1d300d195dfd79e0e9_l-9147160-images-thumbs&n=13",
+        "category": "Материнские платы",
+        "price": 250,
+        "stock": 20,
+        "brand": "MSI",
+        "specs": {
+          "socket": "LGA 1700",
+          "chipset": "B660",
+          "form_factor": "ATX",
+          "memory_slots": 4,
+          "max_memory": "128 GB"
+        }
+      },
+      {
+        "id": 13,
+        "name": "Gigabyte Z790 AORUS ELITE",
+        "img": "https://avatars.mds.yandex.net/get-mpic/11740777/2a0000018b01e5c9b8abb8d6e4d3ed888ec2/orig",
+        "category": "Материнские платы",
+        "price": 375,
+        "stock": 10,
+        "brand": "Gigabyte",
+        "specs": {
+          "socket": "LGA 1700",
+          "chipset": "Z790",
+          "form_factor": "ATX",
+          "memory_slots": 4,
+          "max_memory": "128 GB"
+        }
+      },
+      {
+        "id": 14,
+        "name": "ASRock B550M Steel Legend",
+        "img": "https://avatars.mds.yandex.net/i?id=4c2acfdf5fd801329e4f3f86c643594f_l-5179350-images-thumbs&n=13",
+        "category": "Материнские платы",
+        "price": 200,
+        "stock": 18,
+        "brand": "ASRock",
+        "specs": {
+          "socket": "AM4",
+          "chipset": "B550",
+          "form_factor": "Micro-ATX",
+          "memory_slots": 4,
+          "max_memory": "128 GB"
+        }
+      },
+      {
+        "id": 15,
+        "name": "NZXT N7 B650E",
+        "img": "https://avatars.mds.yandex.net/i?id=83b9f1e0914591ce5e6bc2ba45d984e1630bed27-5568379-images-thumbs&n=13",
+        "category": "Материнские платы",
+        "price": 350,
+        "stock": 12,
+        "brand": "NZXT",
+        "specs": {
+          "socket": "AM5",
+          "chipset": "B650E",
+          "form_factor": "ATX",
+          "memory_slots": 4,
+          "max_memory": "128 GB"
+        }
+    }
+    ]
+}  

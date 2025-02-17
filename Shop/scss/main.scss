@@ -46,22 +46,54 @@
         }
 
         main{
-            display: flex;
 
-            .main__card{
-                width: 100px;
-                height: 100px;
-                padding: 7px;
-                border-radius: 15px;
-                border: solid #ff0159 1px;
-            }
-            .main__card__basket__btn{
-                background-color: rgb(46, 45, 45);
-                padding: 4px;
-                font-size: 20px;
-                color: #ff0159;
-                border: solid #ff0159 1px;
-                border-radius: 15px;
+            .container{
+                padding-top: 10px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+
+                .main__card{
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    justify-content: center;
+                    color: white;
+                    width: 240px;
+                    min-height: 300px;
+                    padding: 7px;
+                    border-radius: 15px;
+                    border: solid #ff0159 1px;
+    
+                    .main__card__logo{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+    
+                        .main__card__logo__img{
+                            border-radius: 15px;
+                        }
+                    }
+                    
+                    .main__card__basket{
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        width: 200px;
+    
+                        .main__card__basket__btn{
+                            background-color: rgb(46, 45, 45);
+                            padding: 4px;
+                            font-size: 20px;
+                            color: #ff0159;
+                            border: solid #ff0159 1px;
+                            border-radius: 15px;
+                        }
+                    }
+            
+                }
             }
         }
 

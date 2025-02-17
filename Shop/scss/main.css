@@ -41,17 +41,41 @@
 * body .slider {
   display: none;
 }
-* body main {
+* body main .container {
+  padding-top: 10px;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
-* body main .main__card {
-  width: 100px;
-  height: 100px;
+* body main .container .main__card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  width: 240px;
+  min-height: 300px;
   padding: 7px;
   border-radius: 15px;
   border: solid #ff0159 1px;
 }
-* body main .main__card__basket__btn {
+* body main .container .main__card .main__card__logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+* body main .container .main__card .main__card__logo .main__card__logo__img {
+  border-radius: 15px;
+}
+* body main .container .main__card .main__card__basket {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
+}
+* body main .container .main__card .main__card__basket .main__card__basket__btn {
   background-color: rgb(46, 45, 45);
   padding: 4px;
   font-size: 20px;
