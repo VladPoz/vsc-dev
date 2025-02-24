@@ -4,6 +4,7 @@
   outline: none;
   border: none;
   border-radius: none;
+  text-decoration: none;
 }
 * body {
   background-color: rgb(46, 45, 45);
@@ -14,6 +15,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  max-height: 100%;
 }
 * body .header__contents .header__contents__logo {
   padding-left: 10px;
@@ -69,13 +71,13 @@
 * body main .container .main__card .main__card__logo .main__card__logo__img {
   border-radius: 15px;
 }
-* body main .container .main__card .main__card__basket {
+* body main .container .main__card .main__card__button {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 200px;
 }
-* body main .container .main__card .main__card__basket .main__card__basket__btn {
+* body main .container .main__card .main__card__button .main__card__basket__btn {
   background-color: rgb(46, 45, 45);
   padding: 4px;
   font-size: 20px;
@@ -83,39 +85,41 @@
   border: solid #ff0159 1px;
   border-radius: 15px;
 }
+* body main .container .main__card .main__card__button .main__card__basket__btn a {
+  color: #ff0159;
+}
 * body .end {
   display: none;
 }
-* body login {
-  display: none;
+* body log__reg {
+  display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
 }
-* body login .login__menu__close {
-  position: absolute;
-}
-* body login .login__menu {
-  padding-top: 155px;
-  padding-bottom: 155px;
-  padding-left: 95px;
-  padding-right: 95px;
+* body log__reg .login__menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: auto;
   border: solid #ff0159 1px;
   border-radius: 25px;
+  min-width: 450px;
+  min-height: 555px;
 }
-* body login .login__menu h1 {
+* body log__reg .login__menu h1 {
   font-size: 40px;
   color: white;
   padding-left: 90px;
   padding-bottom: 20px;
 }
-* body login .login__menu .login__menu__username {
+* body log__reg .login__menu .login__menu__username {
   padding-bottom: 10px;
 }
-* body login .login__menu .login__menu__password {
+* body log__reg .login__menu .login__menu__password__repeat {
   padding-top: 10px;
 }
-* body login .login__menu input {
+* body log__reg .login__menu input {
   background-color: rgb(46, 45, 45);
   padding: 7px;
   font-size: 20px;
@@ -125,24 +129,25 @@
   width: 275px;
   height: 25px;
 }
-* body login .login__menu .login__menu__hide {
+* body log__reg .login__menu .login__menu__hide {
   padding-top: 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   color: white;
 }
-* body login .login__menu .login__menu__hide input {
+* body log__reg .login__menu .login__menu__hide input {
   width: 20px;
   height: 20px;
 }
-* body login .login__menu .login__menu__hide a {
+* body log__reg .login__menu .login__menu__hide a {
   padding-left: 10px;
+  color: white;
 }
-* body login .login__menu .login__menu__buttons {
+* body log__reg .login__menu .login__menu__buttons {
   padding-top: 20px;
 }
-* body login .login__menu .login__menu__buttons .login__menu__button {
+* body log__reg .login__menu .login__menu__buttons .login__menu__button {
   width: 300px;
   background-color: rgb(46, 45, 45);
   padding: 7px;
@@ -151,9 +156,17 @@
   border: solid #ff0159 1px;
   border-radius: 15px;
 }
-* body login .login__menu .login__menu__reg {
+* body log__reg .login__menu .login__menu__reg {
   padding-top: 17px;
   color: white;
+}
+* body log__reg .login__menu .login__menu__reg a {
+  text-decoration: none;
+  color: white;
+}
+
+.close__btn {
+  position: absolute;
 }
 
 .container {
