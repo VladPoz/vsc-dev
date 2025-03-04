@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+    text-decoration: none;
+
+    body{
+        background-color: rgb(45, 45, 45);
+    }
+
+    header{
+        background-color: rgb(30, 30, 30);
+        min-height: 65px;
+       
+        .user_btn{
+            position: absolute;
+            padding: 5px;
+        }
+
+        .header__content{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            min-height: 65px;
+
+            .header__content__hall-number{
+                font-family: Roboto;
+                color: white;
+                font-size: 25px;
+            }
+            
+            .header__content__logo{
+                font-family: Roboto;
+                color: white;
+            }
+
+            .header__content__movie-name{
+                font-family: Roboto;
+                color: white;
+                font-size: 25px;
+            }
+        }
+    }
+    main{
+
+        .main__content{
+            display: flex;
+            align-items: flex;
+            justify-content: center;
+            min-height: 75vh;
+
+            .main__contents{
+                padding-top: 50px;
+                min-width: 500px;
+                min-height: 500px;
+
+                .main__content__hall{
+                    display: grid;
+                    padding: auto;
+                    margin: auto;
+                    gap: 10px;
+
+                    .grid-cell{
+                        min-height: 50px;
+                        min-width: 65px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        padding: auto;
+                        margin: auto;
+                        color: white;
+                        border-radius: 15px;
+
+                        font-size: 25px;
+
+                        &.selected{
+                            color: yellow;
+                        }
+                    }                    
+                }
+            }
+        }
+    }
+
+    log__reg{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+
+        .login__menu{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: auto;
+            border: solid white 1px;
+            border-radius: 25px;
+            min-width: 450px;
+            min-height: 555px;
+            
+            h1{
+                font-size: 40px;
+                color: white;
+                padding-left: 90px;
+                padding-bottom: 20px;
+            }
+
+            .login__menu__email{
+                padding-bottom: 10px;
+            }
+
+            .login__menu__password__repeat{
+                padding-top: 10px;
+            }
+
+            input{
+                background-color: rgb(46, 45, 45);
+                padding: 7px;
+                font-size: 20px;
+                color: #536177;
+                border: solid white 1px;
+                border-radius: 15px;
+                width: 275px;
+                height: 25px;
+            }
+            
+            .login__menu__hide{
+                padding-top: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                color: white;
+
+                input{
+                    width: 20px;
+                    height: 20px;
+                }
+
+                a{
+                    padding-left: 10px;
+                    color: white;
+                }
+            }
+            .login__menu__buttons{
+                padding-top: 20px;
+                .login__menu__button{
+                    width: 300px;
+                    background-color: rgb(46, 45, 45);
+                    padding: 7px;
+                    font-size: 20px;
+                    color: white;
+                    border: solid white 1px;
+                    border-radius: 15px;
+                }
+            }
+            .login__menu__reg{
+                padding-top: 17px;
+                color: white;
+
+                a{
+                    text-decoration: none;
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
+
+.close__btn{
+position: absolute;
+}
+
+
+.container{
+    width: 75%;
+    margin: auto;
+    height: 100%;
+    }
